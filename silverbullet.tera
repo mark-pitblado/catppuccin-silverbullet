@@ -30,23 +30,24 @@ whiskers:
 
 html {
   --ui-accent-color: var(--blue);
-  --highlight-color: rgba(249, 226, 175, 0.5);
+  --highlight-color: var(--yellow);
   --link-color: var(--sapphire);
   --link-missing-color: var(--peach);
+  --link-invalid-color: var(--red);
   --meta-color: var(--peach);
   --meta-subtle-color: var(--sky);
   --subtle-color: var(--sky);
-  --subtle-background-color: rgba(49, 50, 68, 0.1);
+  --subtle-background-color: var(--suface0);
   --root-background-color: var(--base);
   --root-color: var(--text);
   --top-color: var(--text);
-  --top-background-color: var(--base);
+  --top-background-color: var(--mantle);
   --top-border-color: var(--surface0);
   --top-sync-error-color: var(--top-color);
   --top-sync-error-background-color: var(--red);
   --top-saved-color: var(--green);
   --top-unsaved-color: var(--subtext0);
-  --top-loading-color: var(--subtext0);
+  --top-loading-color: var(--yellow);
   --panel-background-color: var(--text);
   --panel-border-color: var(--text);
   --bhs-background-color: var(--text);
@@ -71,7 +72,7 @@ html {
   --action-button-hover-color: var(--sky);
   --action-button-active-color: var(--sky);
   --editor-caret-color: var(--text);
-  --editor-selection-background-color: rgba(137, 180, 250, 0.3);
+  --editor-selection-background-color: var(--overlay0);
   --editor-panels-bottom-color: var(--green);
   --editor-panels-bottom-background-color: var(--base);
   --editor-panels-bottom-border-color: var(--surface0);
@@ -80,17 +81,18 @@ html {
   --editor-list-bullet-color: var(--overlay1);
   --editor-heading-color: var(--text);
   --editor-heading-meta-color: var(--meta-subtle-color);
-  --editor-hashtag-background-color: var(--blue);
+  --editor-hashtag-background-color: var(--peach);
   --editor-hashtag-color: var(--crust);
-  --editor-hashtag-border-color: rgba(137, 180, 250, 0.4);
+  --editor-hashtag-border-color: var(--peach);
   --editor-ruler-color: var(--surface1);
   --editor-naked-url-color: var(--link-color);
   --editor-link-color: var(--link-color);
   --editor-link-url-color: var(--link-color);
   --editor-link-meta-color: var(--meta-subtle-color);
-  --editor-wiki-link-page-background-color: rgba(137, 180, 250, 0.07);
+  --editor-wiki-link-page-background-color: var(--suface1);
   --editor-wiki-link-page-color: var(--link-color);
   --editor-wiki-link-page-missing-color: var(--link-missing-color);
+  --editor-wiki-link-page-invalid-color: var(--red);
   --editor-wiki-link-color: var(--mauve);
   --editor-named-anchor-color: var(--meta-subtle-color);
   --editor-command-button-color: var(--text);
@@ -106,7 +108,8 @@ html {
   --editor-blockquote-background-color: var(--subtle-background-color);
   --editor-blockquote-color: var(--subtle-color);
   --editor-blockquote-border-color: var(--surface1);
-  --editor-code-background-color: var(--subtle-background-color);
+  --editor-code-color: var(--surface0);
+  --editor-code-background-color: var(--mantle);
   --editor-struct-color: var(--red);
   --editor-highlight-background-color: var(--highlight-color);
   --editor-code-comment-color: var(--meta-subtle-color);
@@ -117,13 +120,13 @@ html {
   --editor-code-info-color: var(--subtle-color);
   --editor-code-atom-color: var(--blue);
   --editor-admonition-note-border-color: var(--sky);
-  --editor-admonition-note-background-color: rgba(137, 220, 235, 0.2);
+  --editor-admonition-note-background-color: var(--surface0);
   --editor-admonition-warning-border-color: var(--peach);
-  --editor-admonition-warning-background-color: rgba(245, 169, 127, 0.2);
-  --editor-frontmatter-background-color: rgba(24, 24, 37, 0.5);
+  --editor-admonition-warning-background-color: var(--surface0);
+  --editor-frontmatter-background-color: var(--surface0);
   --editor-frontmatter-color: var(--subtle-color);
   --editor-frontmatter-marker-color: var(--text);
-  --editor-widget-background-color: rgba(49, 50, 68, 0.5);
+  --editor-widget-background-color: var(--suface1);
   --editor-task-marker-color: var(--subtle-color);
 }
 #sb-main .cm-textfield {
